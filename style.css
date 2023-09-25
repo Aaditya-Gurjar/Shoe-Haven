@@ -217,18 +217,28 @@ nav{
     right: 0;
     width: 40%;
     padding: 50px;
+    margin: 20px;
     
 }
 .productTitle{
     font-size: 75px;
     font-weight: 900;
-}
+    margin: 20px;
 
+}
+.productPrice{
+    margin: 20px;
+
+}
 .productDesc{
-    font-size: 24px;
+    font-size: 20px;
+    margin: 20px;
+
     color: gray;
 }
 .colors, .sizes{
+    margin: 20px;
+
     display: flex;
 }
 
@@ -246,8 +256,22 @@ nav{
 
 .size{
     padding: 5px 20px;
-    border: 1pz solid black;
+    border: 1px solid black;
     margin-right: 10px;
     cursor: pointer;
+    font-size: 20px;
 
+}
+
+.productButton{
+    float: right;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.productButton:hover{
+    background-color: white;
+    color: black;
 }
