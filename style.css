@@ -212,6 +212,89 @@ nav{
     position: relative;
     clip-path: polygon(0 15%,100% 0, 100% 100%,0 100%);
 }
+
+.payment{
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 50px;
+    display: none;
+    flex-direction: column;
+    /* margin-top: 20px; */
+    margin-top: 4rem;
+    /* box-shadow: rgba(0,0,0,0.1); */
+    box-shadow: 5px 13px 49px -10px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 13px 49px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 13px 49px -10px rgba(0,0,0,0.75);
+}
+.payTitle{
+    margin: 10px 0px;
+}
+label{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.payInput{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.payInput ::placeholder{
+    color: lightgray;
+}
+
+.cardIcons{
+    display: flex;
+}
+
+.cardInfo{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.sm{
+    width: 30%;
+}
+
+.payButton{
+    position: absolute;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    box-shadow: 5px 13px 49px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 13px 49px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 13px 49px -10px rgba(0,0,0,0.75);
+
+
+}
+
+.close{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .productImg{
     width: 50%;
 }
@@ -278,4 +361,38 @@ nav{
 .productButton:hover{
     background-color: white;
     color: black;
+}
+
+.mainGallery{
+    display: flex;
+    width: 100%;
+    /* padding: 50px; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 225, 225);
+    
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.galleryItem{
+    margin: 20px;
+    flex: 1;
+    font-size: 20px;
+    color: brown;
+
+}
+
+.gallery img{
+    width: 70%;
+    
+    box-shadow: 5px 13px 49px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 13px 49px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 13px 49px -10px rgba(0,0,0,0.75);
 }
