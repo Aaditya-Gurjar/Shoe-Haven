@@ -545,6 +545,14 @@ footer{
         align-items: center;
     }
 
+    .sliderPrice{
+        font-size: 32px;
+    }
+
+    .buyButton{
+        font-size: 22px;
+    }
+
     .productImg{
         width: 80%;
     }
