@@ -14,7 +14,7 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <nav>
+    <nav id="nav">
       <div class="navTop">
         <div class="navItem">
           <img src="./img/sneakers.png" alt="" />
@@ -42,7 +42,7 @@
         <h3 class="menuItem">HIPPIE</h3>
       </div>
     </nav>
-
+ 
     <div class="slider">
       <div class="sliderWrapper">
         <div class="sliderItem">
@@ -174,45 +174,142 @@
       <div class="payment">
         <h1 class="payTitle">Personal Information</h1>
         <label for="">Name and Surname</label>
-        <input type="text" name="" class="payInput" placeholder="John Doe">
+        <input type="text" name="" class="payInput" placeholder="John Doe" />
         <label for="">Phone Number</label>
-        <input type="text" name="" class="payInput" placeholder="+91 ">
+        <input type="text" name="" class="payInput" placeholder="+91 " />
         <label for="">Address</label>
-        <input type="text" name="" class="payInput" placeholder="">
+        <input type="text" name="" class="payInput" placeholder="" />
         <h1 class="payTitle">Cart Information</h1>
         <div class="cardIcons">
-          <img src="./img/visa.png" width="40" alt="" class="cartIcon">
-          <img src="./img/master.png" width="40" alt="" class="cartIcon">
+          <img src="./img/visa.png" width="40" alt="" class="cartIcon" />
+          <img src="./img/master.png" width="40" alt="" class="cartIcon" />
         </div>
-        <input type="password" name="" class="payInput" placeholder="Card Number">
+        <input
+          type="password"
+          name=""
+          class="payInput"
+          placeholder="Card Number"
+        />
         <div class="cardInfo">
-          <input type="text" class="payInput sm" placeholder="mm">
-          <input type="text" class="payInput sm" placeholder="CVV">
-          <input type="text" class="payInput sm" placeholder="yyyy">
+          <input type="text" class="payInput sm" placeholder="mm" />
+          <input type="text" class="payInput sm" placeholder="CVV" />
+          <input type="text" class="payInput sm" placeholder="yyyy" />
         </div>
-        <button class="payButton" >CheckOut!</button>
+        <button class="payButton">CheckOut!</button>
         <span class="close">X</span>
       </div>
     </div>
     <div class="mainGallery">
-      
-    <div class="gallery">
-      <h1 class="galleryItem">Shop 'til your Wi-Fi drops!</h1>
-      <img src="https://images.pexels.com/photos/5214139/pexels-photo-5214139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+      <div class="gallery">
+        <h1 class="galleryItem">Shop 'til your Wi-Fi drops!</h1>
+        <img
+          src="https://images.pexels.com/photos/5214139/pexels-photo-5214139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt=""
+        />
+      </div>
+
+      <div class="gallery">
+        <img
+          src="https://images.pexels.com/photos/1102777/pexels-photo-1102777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt=""
+        />
+        <h1 class="galleryItem">Fashion delivered to your fingertips</h1>
+      </div>
+
+      <div class="gallery">
+        <h1 class="galleryItem">
+          Fashion at your doorstep, trends in your cart
+        </h1>
+        <img
+          src="https://images.pexels.com/photos/5214139/pexels-photo-5214139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt=""
+        />
+      </div>
     </div>
 
-    
-    <div class="gallery">
-      <img src="https://images.pexels.com/photos/1102777/pexels-photo-1102777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-      <h1 class="galleryItem">Fashion delivered to your fingertips</h1>
+    <div class="newSeason">
+      <div class="nsItem">
+        <img
+          src="https://images.unsplash.com/photo-1463080197951-ea6abbd2bb9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          class="nsImg"
+          alt=""
+        />
+      </div>
+      <div class="nsItem">
+        <h3 class="nsTitlesm">WINTER NEW ARRIVALS</h3>
+        <h1 class="nsTitle">NEW SEASON</h1>
+        <h1 class="nsTitle">NEW COLLECTION</h1>
+        <a href="#nav">
+          <button class="nsButton">CHOOSE YOUR STYLE</button>
+        </a>
+      </div>
+      <div class="nsItem">
+        <img
+          src="https://images.unsplash.com/photo-1472591651607-70e2d88ae3c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1961&q=80"
+          class="nsImg"
+          alt=""
+        />
+      </div>
     </div>
 
-    
-    <div class="gallery">
-      <h1 class="galleryItem">Fashion at your doorstep, trends in your cart</h1>
-      <img src="https://images.pexels.com/photos/5214139/pexels-photo-5214139.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
-    </div>
+   <footer>
+      <div class="footerLeft">
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">About US</h1>
+          <ul class="fList">
+            <li class="fListItem">Company</li>
+            <li class="fListItem">Contact</li>
+            <li class="fListItem">Careers</li>
+            <li class="fListItem">Affiliates</li>
+            <li class="fListItem">Stores</li>
+          </ul>
+        </div>
 
-    </div>
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">Usefull Links</h1>
+          <ul class="fList">
+            <li class="fListItem">Company</li>
+            <li class="fListItem">Contact</li>
+            <li class="fListItem">Careers</li>
+            <li class="fListItem">Affiliates</li>
+            <li class="fListItem">Stores</li>
+          </ul>
+        </div>
+
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">products</h1>
+          <ul class="fList">
+            <li class="fListItem">Air Forcr</li>
+            <li class="fListItem">Air Jordan</li>
+            <li class="fListItem">Blazer</li>
+            <li class="fListItem">Crater</li>
+            <li class="fListItem">Hippie</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerRight">
+        <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Subscribe to our Newsletter</h1>
+          <div class="fMail"></div>
+          <input type="text" placeholder="Your@gmail.com" class="fInput" />
+          <button class="fButton">Join!</button>
+        </div>
+
+        <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Follow Us</h1>
+          <div class="fIcons"></div>
+          <img src="./img/facebook.png" alt="" class="fIcon" />
+          <img src="./img/twitter.png" alt="" class="fIcon" />
+          <img src="./img/instagram.png" alt="" class="fIcon" />
+          <img src="./img/whatsapp.png" alt="" class="fIcon" />
+        </div>
+
+        <div class="footerRightMenu">
+          <span class="copyright"
+            >@Aaditya Gujar. All rights reserved. 2022.</span
+          >
+        </div>
+      </div>
+    </footer> 
   </body>
 </html>
